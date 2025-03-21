@@ -1,0 +1,9 @@
+global:
+  common: &common
+    name: &name "helmless-starter"
+    project: &project "helmless"
+    image: &image "us-docker.pkg.dev/cloudrun/container/hello"
+service:
+  *common
+job:
+  *common
